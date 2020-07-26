@@ -1,12 +1,12 @@
-# resumeProject
+# Restaurant Project
 just a spring app that I wanted to work on
 
 
-##FINISHED
+## FINISHED
 - Finished the skeleton of the project. 
 
 
-##TODO
+## TODO
 - Gotta make a lot more changes to the home landing page. 
 - Make the README actually look nice.
 - Add Table functionality
