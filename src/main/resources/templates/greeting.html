@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+    <style>
+        body { background-color: dimgray; margin:20px }
+        h1 { color: azure }
+    </style>
+    <head>
+        <title>Greeting</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    </head>
+        <body>
+        <label for="nameInput">Name (4 to 8 characters):</label>
+            <input type="text" id="nameInput" name="name">
+            <p th:text="'Hello, ' + ${name} + '!'" />
+        </body>
+</html>
